@@ -64,7 +64,7 @@ export let addPost = () => {
 		id: 5,
 		message: state.profilePage.newPostText,
 		likesCount: 0,
-		avatar: "https://i.pinimg.com/736x/6b/1c/a0/6b1ca024d03114fc1ebd1299f6e99762.jpg",
+		avatar: "https://avatars.mds.yandex.net/i?id=04c7228c8c1e13067243bfe9329a39cd_l-5714482-images-thumbs&n=13",
 	};
 	state.profilePage.posts.push(newPost);
 	state.profilePage.newPostText = '';
