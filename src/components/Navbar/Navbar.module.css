@@ -1,0 +1,15 @@
+.nav {
+	display: flex;
+	flex-direction: column;
+  grid-area: n;
+  background-color: burlywood;
+	padding: 20px;
+}
+
+.item {
+	color: white;
+}
+
+.active {
+	color: gold;
+}

@@ -1,0 +1,35 @@
+.sidebar {
+  padding: 20px;
+  background-color: burlywood; /* Цвет фона сайдбара */
+  border-right: 1px solid #1d0909; 
+  border-top: 1px solid #1d0909; 
+}
+
+.title {
+	text-align: center;
+  font-size: 1.5em; /* Большой шрифт для заголовка */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.friendsList {
+  display: flex;
+  flex-direction: column; /* Вертикальное выравнивание списка друзей */
+}
+
+.friend {
+  display: flex;
+  flex-direction: column; /* Вертикальное выравнивание для каждого друга */
+  align-items: center; /* Центрирование по горизонтали */
+  margin-bottom: 10px; /* Отступ между друзьями */
+}
+
+.avatar {
+  width: 40px; /* Размер аватара */
+  height: 40px; /* Высота аватара */
+  border-radius: 50%; /* Круглая форма */
+  margin-bottom: 5px; /* Отступ снизу от аватара */
+}
+
+.friendName {
+  font-size: 1.2em; /* Размер шрифта для имени друга */
+}
